@@ -1,0 +1,53 @@
+.gallery{
+    width: 200px;
+    display: inline-block;
+    border: 1px solid hsl(0, 0%, 50%);
+    margin: 5px;
+}
+.gallery img{
+    width: 100%;
+}
+.gallery:hover{
+    border: 1px solid hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 20%);
+}
+.gallery .description{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+}
+/* <div>
+            <i class="fa-solid fa-burger"></i>
+            <i class="fa-solid fa-bowl-food"></i>
+            <i class="fa-solid fa-fish"></i>
+            <i class="fa-solid fa-beer-mug-empty"></i>
+            <i class="fa-solid fa-wine-bottle"></i>
+            <i class="fa-solid fa-champagne-glasses"></i>
+            <i class="fa-solid fa-smoking"></i>
+            <i class="fa-solid fa-volcano"></i>
+            <i class="fa-solid fa-smog"></i>
+        </div> */
+.icons{
+    border: 5px solid black;
+    height: 50vh;
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    column-gap: 1em;
+    row-gap: 1em;
+}
+.icons a{
+    text-decoration: none;
+    color: black;
+    font-size: 7em;
+}
+#shrek{
+    animation-name: slideAndScale;
+    animation-duration: 1s;
+    animation-iteration-count: 2;
+}
+@keyframes slideAndScale{
+    50%{transform: translate(325px, 25px) rotateX(45deg) scale(1, 1.5) skewX(-60deg);};
+}

@@ -1,0 +1,71 @@
+body{
+    background-image: url(images/bgim0.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-text-stroke: 0.5px black;
+    color: white;
+}
+#hello{
+    text-align: center;
+    color: rgb(240, 144, 61);
+    border: 3px dashed rgb(212, 255, 0);
+    border-radius: 20px;
+}
+#story{
+    text-align: center;
+    color: rgb(255, 0, 157);
+    text-shadow: 3px 3px 3px rebeccapurple, -3px -3px 3px red;
+}
+.margins{
+    text-align: center;
+    border: 3px solid;
+    font-size: 2em;
+    margin: 25px;
+}
+#born{
+    color: rgb(60, 255, 151);
+}
+#kid{
+    color: mediumpurple;
+}
+#img1{
+    float: left;
+    margin-right: 10px;
+}
+#lorem1{
+    font-size: 1.75em;
+    color: rgb(211, 156, 88);
+}
+#lorem2{
+    height: 75px;
+    border: 2px solid;
+    border-color: rgb(255, 255, 255);
+    overflow: auto;
+}
+#here{
+    text-align: center;
+    background-color: darkolivegreen;
+    display: inline-block;
+    font-size: 1.5em;
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+}
+#here1{
+    position: relative;
+    top: -13px;
+}
+#combinator h3{
+    background-color: rgb(91, 193, 193);
+}
+#combinator > h3{
+    background-color: burlywood;
+}
+#combinator ~ h3{
+    background-color: darkgrey;
+}
+#combinator + h3{
+    background-color: crimson;
+}
